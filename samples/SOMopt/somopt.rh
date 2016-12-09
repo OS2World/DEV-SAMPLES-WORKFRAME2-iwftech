@@ -1,0 +1,24 @@
+#define ID_SOM_SETTINGS             100
+#define ID_DIRECTORY                104
+#define ID_RELEASE                  107
+#define ID_WARNING                  108
+#define ID_OK                       109
+#define ID_DEFAULT                  110
+#define ID_UNDO                     111
+#define ID_CANCEL                   112
+#define ID_COMMENT_S                113
+#define ID_COMMENT_C                114
+#define ID_COMMENT_CPP              115
+#define ID_EMIT_DEF                 120
+#define ID_EMIT_SC                  121
+#define ID_EMIT_PSC                 122
+#define ID_EMIT_CS2                 123
+#define ID_EMIT_C                   124
+#define ID_EMIT_H                   125
+#define ID_EMIT_IH                  126
+#define ID_EMIT_PH                  127
+#define ID_EMIT_CPP                 128
+#define ID_EMIT_XH                  129
+#define ID_EMIT_XIH                 130
+#define ID_EMIT_XPH                 131
+

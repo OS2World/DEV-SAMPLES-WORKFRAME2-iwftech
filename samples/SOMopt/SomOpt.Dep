@@ -1,0 +1,22 @@
+.\somopt.res: \
+    somopt.RC \
+    {$(INCLUDE)}somopt.rh \
+    {$(INCLUDE)}os2.h \
+    SomOpt.MAK
+
+.\somparse.obj: \
+    somparse.c \
+    {.;$(INCLUDE);}somopt.h \
+    SomOpt.MAK
+
+.\somopt.obj: \
+    somopt.C \
+    {.;$(INCLUDE);}somopt.h \
+    {.;$(INCLUDE);}somopt.rh \
+    SomOpt.MAK
+
+.\somtgt.obj: \
+    somtgt.c \
+    {.;$(INCLUDE);}somopt.h \
+    SomOpt.MAK
+

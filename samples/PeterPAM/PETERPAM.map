@@ -1,0 +1,885 @@
+Stack Allocation = 65536 bytes
+
+ PETERPAM
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000068F0H CODE32                 CODE 32-bit
+               at offset 00000000 00DE0H bytes from peterpam.OBJ (Z:\peterpam\peterpam.c)
+               at offset 00000de0 00C58H bytes from PPCNR.OBJ (Z:\peterpam\PPCNR.c)
+               at offset 00001a38 00048H bytes from D:\IBMCPP\LIB\dde4mbs.lib (DLLINIT.C)
+               at offset 00001a80 003E0H bytes from D:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 00001e60 000E0H bytes from D:\IBMCPP\LIB\dde4mbs.lib (SETUPENV.C)
+               at offset 00001f40 0011CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (CTORDTOR.C)
+               at offset 0000205c 001F0H bytes from D:\IBMCPP\LIB\dde4mbs.lib (EDCTERM.C)
+               at offset 0000224c 00410H bytes from D:\IBMCPP\LIB\dde4mbs.lib (MALLOC.C)
+               at offset 0000265c 00210H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FREE.C)
+               at offset 0000286c 00018H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FREEWEAK.C)
+               at offset 00002884 00380H bytes from D:\IBMCPP\LIB\dde4mbs.lib (HEAPMIN.C)
+               at offset 00002c04 000DCH bytes from D:\IBMCPP\LIB\dde4mbs.lib (CALLOC.C)
+               at offset 00002ce0 0022CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (REALLOC.C)
+               at offset 00002f0c 00020H bytes from D:\IBMCPP\LIB\dde4mbs.lib (TERMINAT.C)
+               at offset 00002f2c 0081CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (N_EXCEPT.C)
+               at offset 00003748 00148H bytes from D:\IBMCPP\LIB\dde4mbs.lib (N_EXCRIT.C)
+               at offset 00003890 0007CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (N_DUMPWK.C)
+               at offset 0000390c 00010H bytes from D:\IBMCPP\LIB\dde4mbs.lib (fpreset.ASM)
+               at offset 0000391c 00014H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FCLWEAK.C)
+               at offset 00003930 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (CWEAK.C)
+               at offset 0000393c 00077H bytes from D:\IBMCPP\LIB\dde4mbs.lib (n_excpta.ASM)
+               at offset 000039b4 000DCH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FREEFCB.C)
+               at offset 00003a90 0032CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (BEGTHRD.C)
+               at offset 00003dbc 001A0H bytes from D:\IBMCPP\LIB\dde4mbs.lib (ENDTHRD.C)
+               at offset 00003f5c 000C0H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FASTSEM.C)
+               at offset 0000401c 000A9H bytes from D:\IBMCPP\LIB\dde4mbs.lib (fastsema.ASM)
+               at offset 000040c8 0002CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (THREADID.C)
+               at offset 000040f4 000F8H bytes from D:\IBMCPP\LIB\dde4mbs.lib (TSGLOBAL.C)
+               at offset 000041ec 00022H bytes from D:\IBMCPP\LIB\dde4mbs.lib (edcmsg.ASM)
+               at offset 00004210 00258H bytes from D:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 00004468 0006CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRDUP.C)
+               at offset 000044d4 0009CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRICMP.C)
+               at offset 00004570 0003CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (strspn.ASM)
+               at offset 000045ac 0010CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (CTYPETBL.C)
+               at offset 000046b8 01000H bytes from D:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 000056b8 00028H bytes from D:\IBMCPP\LIB\dde4mbs.lib (WEAKFMT.C)
+               at offset 000056e0 00014H bytes from D:\IBMCPP\LIB\dde4mbs.lib (WEAKCPUT.C)
+               at offset 000056f4 00070H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FPRINTF.C)
+               at offset 00005764 00068H bytes from D:\IBMCPP\LIB\dde4mbs.lib (SPRINTF.C)
+               at offset 000057cc 000D4H bytes from D:\IBMCPP\LIB\dde4mbs.lib (WCTOMB.C)
+               at offset 000058a0 000F0H bytes from D:\IBMCPP\LIB\dde4mbs.lib (BUFPRINT.C)
+               at offset 00005990 00050H bytes from D:\IBMCPP\LIB\dde4mbs.lib (WMEMFILE.C)
+               at offset 000059e0 0015CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FFLUSH.C)
+               at offset 00005b3c 00248H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FILLB.C)
+               at offset 00005d84 001B8H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FLUSH.C)
+               at offset 00005f3c 00318H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FLUSHB.C)
+               at offset 00006254 00194H bytes from D:\IBMCPP\LIB\dde4mbs.lib (GETENV.C)
+               at offset 000063e8 00006H bytes from D:\IBMCPP\LIB\dde4mbs.lib (ilog2.ASM)
+               at offset 000063f0 00054H bytes from D:\IBMCPP\LIB\dde4mbs.lib (INTERR.C)
+               at offset 00006444 000A4H bytes from D:\IBMCPP\LIB\dde4mbs.lib (LTOA.C)
+               at offset 000064e8 00008H bytes from D:\IBMCPP\LIB\dde4mbs.lib (W_RAISE.C)
+               at offset 000064f0 00044H bytes from D:\IBMCPP\LIB\dde4mbs.lib (UWRITE.C)
+               at offset 00006534 00034H bytes from D:\IBMCPP\LIB\dde4mbs.lib (CRT_FD.C)
+               at offset 00006568 000A4H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FREETHRD.C)
+               at offset 0000660c 00012H bytes from D:\IBMCPP\LIB\dde4mbs.lib (bts.ASM)
+               at offset 00006620 00168H bytes from D:\IBMCPP\LIB\dde4mbs.lib (WCSTOMBS.C)
+               at offset 00006788 0003CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRCPY.C)
+               at offset 000067c4 00024H bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRLEN.C)
+               at offset 000067e8 00044H bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRNCPY.C)
+               at offset 0000682c 00030H bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRRCHR.C)
+               at offset 0000685c 0003CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (MEMSET.C)
+               at offset 00006898 00030H bytes from D:\IBMCPP\LIB\dde4mbs.lib (MEMCPY.C)
+               at offset 000068c8 00014H bytes from D:\IBMCPP\LIB\dde4mbs.lib (EDCMXDEF.C)
+               at offset 000068dc 00014H bytes from D:\IBMCPP\LIB\dde4mbs.lib (MATHERR.C)
+
+ 0001:000068F0 000000030H _MSGSEG32              CODE 32-bit
+               at offset 00000000 00030H bytes from D:\TOOLKT21\OS2LIB\os2386.lib (.\msgseg32.asm)
+
+ 0002:00000000 000000660H DATA32                 DATA 32-bit
+               at offset 00000000 00004H bytes from D:\IBMCPP\LIB\dde4mbs.lib (dllstub.ASM)
+               at offset 00000010 002C0H bytes from D:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 000002d0 00010H bytes from D:\IBMCPP\LIB\dde4mbs.lib (CTORDTOR.C)
+               at offset 000002e0 00020H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FREE.C)
+               at offset 00000300 00030H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FREEWEAK.C)
+               at offset 00000330 00020H bytes from D:\IBMCPP\LIB\dde4mbs.lib (HEAPMIN.C)
+               at offset 00000350 00010H bytes from D:\IBMCPP\LIB\dde4mbs.lib (CALLOC.C)
+               at offset 00000360 00010H bytes from D:\IBMCPP\LIB\dde4mbs.lib (REALLOC.C)
+               at offset 00000370 000B0H bytes from D:\IBMCPP\LIB\dde4mbs.lib (N_EXCEPT.C)
+               at offset 00000420 00002H bytes from D:\IBMCPP\LIB\dde4mbs.lib (fpreset.ASM)
+               at offset 00000430 000A0H bytes from D:\IBMCPP\LIB\dde4mbs.lib (BEGTHRD.C)
+               at offset 000004d0 00030H bytes from D:\IBMCPP\LIB\dde4mbs.lib (ENDTHRD.C)
+               at offset 00000500 00010H bytes from D:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 00000510 00110H bytes from D:\IBMCPP\LIB\dde4mbs.lib (CTYPETBL.C)
+               at offset 00000620 00010H bytes from D:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 00000630 00010H bytes from D:\IBMCPP\LIB\dde4mbs.lib (FFLUSH.C)
+               at offset 00000640 00010H bytes from D:\IBMCPP\LIB\dde4mbs.lib (GETENV.C)
+               at offset 00000650 00010H bytes from D:\IBMCPP\LIB\dde4mbs.lib (CRT_FD.C)
+
+ 0002:00000660 000000000H CTOR_DTOR1             DATA 32-bit
+ 0002:00000660 000000000H CTOR_DTOR2             DATA 32-bit
+ 0002:00000660 000000000H CTOR_DTOR3             DATA 32-bit
+ 0002:00000660 000000350H CONST32                CONST 32-bit
+               at offset 00000000 00150H bytes from peterpam.OBJ (Z:\peterpam\peterpam.c)
+               at offset 00000150 000D0H bytes from PPCNR.OBJ (Z:\peterpam\PPCNR.c)
+               at offset 00000220 00020H bytes from D:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 00000240 00010H bytes from D:\IBMCPP\LIB\dde4mbs.lib (MALLOC.C)
+               at offset 00000250 00090H bytes from D:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 000002e0 00040H bytes from D:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 00000320 00030H bytes from D:\IBMCPP\LIB\dde4mbs.lib (LTOA.C)
+
+ 0002:000009B0 00000000CH EDC1                   EDC_CLASS 32-bit
+               at offset 00000000 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (n_excpta.ASM)
+
+ 0002:000009BC 000000288H EDC2                   EDC_CLASS 32-bit
+               at offset 00000000 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (EDCINIT.C)
+               at offset 0000000c 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (SETUPENV.C)
+               at offset 00000018 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (EDCTERM.C)
+               at offset 00000024 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (MALLOC.C)
+               at offset 00000030 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FREE.C)
+               at offset 0000003c 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (HEAPMIN.C)
+               at offset 00000048 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (CALLOC.C)
+               at offset 00000054 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (REALLOC.C)
+               at offset 00000060 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (TERMINAT.C)
+               at offset 0000006c 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (N_EXCEPT.C)
+               at offset 00000078 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (N_EXCRIT.C)
+               at offset 00000084 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (N_DUMPWK.C)
+               at offset 00000090 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (fpreset.ASM)
+               at offset 0000009c 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FCLWEAK.C)
+               at offset 000000a8 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FREEFCB.C)
+               at offset 000000b4 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (BEGTHRD.C)
+               at offset 000000c0 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (ENDTHRD.C)
+               at offset 000000cc 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FASTSEM.C)
+               at offset 000000d8 00018H bytes from D:\IBMCPP\LIB\dde4mbs.lib (fastsema.ASM)
+               at offset 000000f0 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (THREADID.C)
+               at offset 000000fc 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (TSGLOBAL.C)
+               at offset 00000108 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (edcmsg.ASM)
+               at offset 00000114 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (PRTEMSG.C)
+               at offset 00000120 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRDUP.C)
+               at offset 0000012c 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRICMP.C)
+               at offset 00000138 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (strspn.ASM)
+               at offset 00000144 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (CTYPETBL.C)
+               at offset 00000150 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (DOFMTO.C)
+               at offset 0000015c 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (WEAKFMT.C)
+               at offset 00000168 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (WEAKCPUT.C)
+               at offset 00000174 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FPRINTF.C)
+               at offset 00000180 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (SPRINTF.C)
+               at offset 0000018c 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (WCTOMB.C)
+               at offset 00000198 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (BUFPRINT.C)
+               at offset 000001a4 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FFLUSH.C)
+               at offset 000001b0 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FILLB.C)
+               at offset 000001bc 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FLUSH.C)
+               at offset 000001c8 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FLUSHB.C)
+               at offset 000001d4 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (GETENV.C)
+               at offset 000001e0 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (INTERR.C)
+               at offset 000001ec 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (LTOA.C)
+               at offset 000001f8 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (UWRITE.C)
+               at offset 00000204 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (FREETHRD.C)
+               at offset 00000210 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (bts.ASM)
+               at offset 0000021c 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (WCSTOMBS.C)
+               at offset 00000228 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRCPY.C)
+               at offset 00000234 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRLEN.C)
+               at offset 00000240 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRNCPY.C)
+               at offset 0000024c 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (STRRCHR.C)
+               at offset 00000258 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (MEMSET.C)
+               at offset 00000264 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (MEMCPY.C)
+               at offset 00000270 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (EDCMXDEF.C)
+               at offset 0000027c 0000CH bytes from D:\IBMCPP\LIB\dde4mbs.lib (MATHERR.C)
+
+ 0002:00000C44 000000004H EDC3                   EDC_CLASS 32-bit
+               at offset 00000000 00004H bytes from D:\IBMCPP\LIB\dde4mbs.lib (n_excpta.ASM)
+
+ 0002:00000C48 000000000H BSS32                  BSS 32-bit
+ 0002:00000C48 0000000ACH c_common               BSS 32-bit
+
+ Origin   Group
+ 0000:0   FLAT
+ 0002:0   DGROUP
+
+ Address       Export                  Alias
+
+ 0001:00000D1C WKFCOPYFILE             WKFCOPYFILE
+ 0001:00000CA4 WKFCREATEPATH           WKFCREATEPATH
+ 0001:00000D9C WKFDEFAULTNAME          WKFDEFAULTNAME
+ 0001:00000D60 WKFDELETE               WKFDELETE
+ 0001:00000CDC WKFQUERYCOPY            WKFQUERYCOPY
+ 0001:000008DC WKFQUERYFILES           WKFQUERYFILES
+ 0001:00000000 WKFQUERYHAM             WKFQUERYHAM
+ 0001:00000C60 WKFQUERYPATHINFO        WKFQUERYPATHINFO
+ 0001:00000C28 WKFQUERYRUNNABLE        WKFQUERYRUNNABLE
+ 0001:00000A58 WKFQUERYTITLE           WKFQUERYTITLE
+ 0001:00000B64 WKFRUN                  WKFRUN
+ 0001:00000AEC WKFSETTINGS             WKFSETTINGS
+ 0001:00000BF0 WKFSTOP                 WKFSTOP
+ 0001:00000BB4 WKFWRITE                WKFWRITE
+
+  Address         Publics by Name
+
+ 0002:00000C9C       @BSSEDCINIT.C
+ 0002:00000CBC       @BSSN_EXCEPT.C
+ 0002:00000CB8       @BSSPRTEMSG.C
+ 0001:00002C04       calloc
+ 0001:00000E1C       DlgProc
+ 0001:00006902       Dos32GetMessage
+ 0001:00006902       DOS32GETMESSAGE
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  DosCloseMutexSem     (DOSCALLS.333)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosCreateThread      (DOSCALLS.311)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  DosFreeModule        (DOSCALLS.322)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0001:00006902       DOSGETMESSAGE
+ 0001:00006902       DosGetMessage
+ 0000:00000000  Imp  DosLoadModule        (DOSCALLS.318)
+ 0000:00000000  Imp  DOSPOSTEVENTSEM      (DOSCALLS.328)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  DosQueryModuleHandle (DOSCALLS.319)
+ 0000:00000000  Imp  DosQueryProcAddr     (DOSCALLS.321)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0000:00000000  Imp  DOSRELEASEMUTEXSEM   (DOSCALLS.335)
+ 0000:00000000  Imp  DOSREQUESTMUTEXSEM   (DOSCALLS.334)
+ 0000:00000000  Imp  DOSRESETEVENTSEM     (DOSCALLS.327)
+ 0000:00000000  Imp  DosSetExceptionHandler (DOSCALLS.354)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  DOSWAITEVENTSEM      (DOSCALLS.329)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0001:000059E0       fflush
+ 0001:000027DC       free
+ 0001:00006254       getenv
+ 0001:00000518       LoadChainedPAM
+ 0001:000025B0       malloc
+ 0001:00006898       memcpy
+ 0001:0000685C       memset
+ 0000:00000000  Imp  PrfCloseProfile      (PMSHAPI.103)
+ 0000:00000000  Imp  PrfOpenProfile       (PMSHAPI.102)
+ 0000:00000000  Imp  PrfQueryProfileData  (PMSHAPI.117)
+ 0000:00000000  Imp  PrfWriteProfileData  (PMSHAPI.118)
+ 0001:00002E5C       realloc
+ 0001:00000DE0       Settings
+ 0001:000068F0       sig32
+ 0002:00000018       stderr
+ 0002:00000010       stdin
+ 0002:00000014       stdout
+ 0001:00006788       strcpy
+ 0001:00004468       strdup
+ 0001:000044D4       stricmp
+ 0001:000067C4       strlen
+ 0001:000067E8       strncpy
+ 0001:0000682C       strrchr
+ 0001:00004570       strspn
+ 0001:00006620       wcstombs
+ 0001:000057CC       wctomb
+ 0000:00000000  Imp  WinAlarm             (PMWIN.701)
+ 0000:00000000  Imp  WinDefDlgProc        (PMWIN.910)
+ 0000:00000000  Imp  WinDlgBox            (PMWIN.923)
+ 0000:00000000  Imp  WinEnableWindow      (PMWIN.735)
+ 0000:00000000  Imp  WinLoadFileIcon      (PMWP.209)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  WinQueryAnchorBlock  (PMWIN.800)
+ 0000:00000000  Imp  WinQueryWindowPtr    (PMWIN.839)
+ 0000:00000000  Imp  WinQueryWindowText   (PMWIN.841)
+ 0000:00000000  Imp  WinQueryWindowTextLength (PMWIN.842)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  WinSetWindowPtr      (PMWIN.876)
+ 0000:00000000  Imp  WinSetWindowText     (PMWIN.877)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0001:00000D1C       WKFCOPYFILE
+ 0001:00000CA4       WKFCREATEPATH
+ 0001:00000D9C       WKFDEFAULTNAME
+ 0001:00000D60       WKFDELETE
+ 0001:00000CDC       WKFQUERYCOPY
+ 0001:000008DC       WKFQUERYFILES
+ 0001:00000000       WKFQUERYHAM
+ 0001:00000C60       WKFQUERYPATHINFO
+ 0001:00000C28       WKFQUERYRUNNABLE
+ 0001:00000A58       WKFQUERYTITLE
+ 0001:00000B64       WKFRUN
+ 0001:00000AEC       WKFSETTINGS
+ 0001:00000BF0       WKFSTOP
+ 0001:00000BB4       WKFWRITE
+ 0001:00003D48       _beginthread
+ 0001:0000660C       _bit_test_set
+ 0001:000058A0       _bufprint
+ 0001:00003960       _callback_opt_sys
+ 0001:00003FC8       _CloseSem
+ 0001:00003F5C       _CreateSem
+ 0001:00003748       _critlib_except
+ 0001:00003A90       _CrtGetLocalData
+ 0001:00003D04       _CrtInitThread
+ 0001:00001AD0       _CRT_init
+ 0002:00000650       _crt_msg_handle
+ 0001:0000205C       _CRT_term
+ 0002:00000510       _ctable
+ 0002:00000CCC       _ctype
+ 0002:00000614       _ctypeModule
+ 0002:00000020       _daylight
+ 0002:00000000       _dllentry
+ 0001:00001A38       _DLL_InitTerm
+ 0002:00000C48       _edata
+ 0001:000041EC       _edcGetMessage
+ 0002:00000C8C       _edcinit_fin
+ 0002:00000CF4       _end
+ 0001:00003DBC       _endthread
+ 0002:00000CDC       _environ
+ 0001:000041C0       _errno
+ 0001:0000393C       _Exception
+ 0001:0000364C       _exception_dllinit
+ 0001:0000367C       _exception_procinit
+ 0001:00002F2C       _EXE_Exception
+ 0001:0000391C       _fcloseall_weak
+ 0001:00005B3C       _fillb
+ 0002:000009B0       _firsteib
+ 0001:00005D84       _Flush
+ 0001:00005F3C       _flushb
+ 0001:0000390C       _fpreset
+ 0001:000056F4       _fprintfieee
+ 0001:00005734       _fprintf_ansi
+ 0001:000045AC       _freeCtype
+ 0001:00003938       _freeCtype_weak
+ 0001:000039B4       _FreeFCB
+ 0001:00003930       _freeLocale_weak
+ 0001:00006568       _freeThreadStorage
+ 0001:000036B0       _get_eib
+ 0001:00003978       _get_seglim
+ 0002:00000C48       _have_freed
+ 0001:00002B58       _heapmin
+ 0001:00002968       _heapmin_int
+ 0001:000063E8       _ilog2
+ 0001:000045C8       _init_ctype
+ 0001:00003934       _init_ctype_weak
+ 0001:000063F0       _internal_err
+ 0002:00000C44       _lasteib
+ 0001:000030D4       _Lib_excpt
+ 0002:00000CE4       _locale_initialized
+ 0001:00006444       _ltoa
+ 0001:000068DC       _matherr
+ 0002:00000370       _matherr_ptr
+ 0001:000068C8       _Math_Exception_Def
+ 0002:00000C90       _memory_sem
+ 0001:00004264       _MesgServ
+ 0001:0000370C       _mig_eib_store
+ 0002:00000CE0       _osmajor
+ 0002:00000CE1       _osminor
+ 0002:00000028       _osmode
+ 0002:00000C4C       _pBucketArr
+ 0002:0000001C       _PGLOBAL_PTR
+ 0001:00004210       _PrintErrMsg
+ 0001:00002F70       _recreate_exception
+ 0001:0000396C       _Regen_exception
+ 0001:000040AC       _ReleaseSem
+ 0001:0000401C       _RequestSem
+ 0001:00001E60       _setupenv
+ 0001:00006534       _set_crt_msg_handle
+ 0001:0000224C       _split_chunk
+ 0001:00005764       _sprintfieee
+ 0001:000057A0       _sprintf_ansi
+ 0001:00002F0C       _terminate
+ 0002:00000CE8       _TerminateAndDumpSem
+ 0001:00003954       _Test_and_reset
+ 0001:00001A80       _test_handle
+ 0002:00000024       _timezone
+ 0002:00000CAC       _tmemory_sem
+ 0002:00000CD4       _tzname
+ 0001:000064F0       _uwrite
+ 0001:000056E0       _wcputs
+ 0001:0000286C       _Weak_FreeListEntry
+ 0001:000059A8       _wfgetposMem
+ 0001:000056B8       _wfloatfmt
+ 0001:00005998       _wfsetposMem
+ 0001:000059D8       _wOpenMemory
+ 0001:00005994       _wreadbSyncMem
+ 0001:000059D4       _wRemoveMem
+ 0001:000059BC       _wrewindMem
+ 0001:000059A0       _wSeekMem
+ 0001:000059C0       _wtellMem
+ 0001:00005990       _wuwriteMem
+ 0001:000064E8       _w_raise
+ 0001:00003890       _w_Terminate_and_dump
+ 0001:0000372C       __Async_exception_flag
+ 0001:00004170       __broken_time_ptr
+ 0002:00000030       __char_set_type
+ 0001:000041D0       __cppstore
+ 0002:000002D0       __ctdtused
+ 0002:00000CD0       __ctordtorCurrent
+ 0002:00000660       __ctordtorEnd
+ 0001:00001F78       __ctordtorInit
+ 0002:00000660       __ctordtorStart
+ 0001:00001F40       __ctordtorTerm
+ 0001:00004160       __cvt_buf_ptr
+ 0002:00000CC8       __c_local_ctype
+ 0002:0000002C       __decimal_point
+ 0001:00004C00       __dofmto
+ 0001:000041B0       __doserrno
+ 0001:000041A0       __dttm_ptr
+ 0001:00003240       __Exception
+ 0001:00004180       __flags
+ 0001:0000265C       __free
+ 0001:00004140       __internal_buf_ptr
+ 0001:00004150       __lcvt_buf_ptr
+ 0001:00002344       __malloc
+ 0001:00004130       __perror_msg_ptr
+ 0001:000040F4       __random_seed
+ 0001:00002CE0       __realloc
+ 0001:0000371C       __Saved_return_address
+ 0001:00004190       __strerror_msg_ptr
+ 0001:00004110       __strtok_pos
+ 0001:00004120       __tempname_ptr
+ 0001:000040C8       __threadid
+ 0001:00004104       __version
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  DOSRELEASEMUTEXSEM   (DOSCALLS.335)
+ 0000:00000000  Imp  WinWindowFromID      (PMWIN.899)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  DOSPOSTEVENTSEM      (DOSCALLS.328)
+ 0000:00000000  Imp  DosSetExceptionHandler (DOSCALLS.354)
+ 0000:00000000  Imp  PrfCloseProfile      (PMSHAPI.103)
+ 0000:00000000  Imp  WinEnableWindow      (PMWIN.735)
+ 0000:00000000  Imp  DosQueryProcAddr     (DOSCALLS.321)
+ 0000:00000000  Imp  DosSetFilePtr        (DOSCALLS.256)
+ 0000:00000000  Imp  WinLoadFileIcon      (PMWP.209)
+ 0000:00000000  Imp  DosQuerySysInfo      (DOSCALLS.348)
+ 0000:00000000  Imp  DosCreateThread      (DOSCALLS.311)
+ 0000:00000000  Imp  DosExit              (DOSCALLS.234)
+ 0000:00000000  Imp  DosAllocMem          (DOSCALLS.299)
+ 0000:00000000  Imp  DOS32IQUERYMESSAGECP (MSG.8)
+ 0000:00000000  Imp  WinAlarm             (PMWIN.701)
+ 0000:00000000  Imp  WinQueryWindowTextLength (PMWIN.842)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  WinQueryWindowPtr    (PMWIN.839)
+ 0000:00000000  Imp  WinDlgBox            (PMWIN.923)
+ 0000:00000000  Imp  DosQueryModuleHandle (DOSCALLS.319)
+ 0000:00000000  Imp  WinSetWindowPtr      (PMWIN.876)
+ 0000:00000000  Imp  DosCloseMutexSem     (DOSCALLS.333)
+ 0000:00000000  Imp  WinQueryWindowText   (PMWIN.841)
+ 0000:00000000  Imp  DosSetSignalExceptionFocus (DOSCALLS.378)
+ 0000:00000000  Imp  DOSWAITEVENTSEM      (DOSCALLS.329)
+ 0000:00000000  Imp  PrfWriteProfileData  (PMSHAPI.118)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosFreeMem           (DOSCALLS.304)
+ 0000:00000000  Imp  PrfQueryProfileData  (PMSHAPI.117)
+ 0000:00000000  Imp  WinSendMsg           (PMWIN.920)
+ 0000:00000000  Imp  DOSREQUESTMUTEXSEM   (DOSCALLS.334)
+ 0000:00000000  Imp  WinQueryAnchorBlock  (PMWIN.800)
+ 0000:00000000  Imp  DOS32TRUEGETMESSAGE  (MSG.6)
+ 0000:00000000  Imp  DOSRESETEVENTSEM     (DOSCALLS.327)
+ 0000:00000000  Imp  WinSetWindowText     (PMWIN.877)
+ 0000:00000000  Imp  DosGetInfoBlocks     (DOSCALLS.312)
+ 0000:00000000  Imp  WinDefDlgProc        (PMWIN.910)
+ 0000:00000000  Imp  PrfOpenProfile       (PMSHAPI.102)
+ 0000:00000000  Imp  DosLoadModule        (DOSCALLS.318)
+ 0000:00000000  Imp  DosWrite             (DOSCALLS.282)
+ 0000:00000000  Imp  WinMessageBox        (PMWIN.789)
+ 0000:00000000  Imp  DosQueryHType        (DOSCALLS.224)
+ 0000:00000000  Imp  DosRaiseException    (DOSCALLS.356)
+ 0000:00000000  Imp  DosQueryDBCSEnv      (NLS.6)
+ 0000:00000000  Imp  DosFreeModule        (DOSCALLS.322)
+ 0001:00000000       WKFQUERYHAM
+ 0001:00000518       LoadChainedPAM
+ 0001:000008DC       WKFQUERYFILES
+ 0001:00000A58       WKFQUERYTITLE
+ 0001:00000AEC       WKFSETTINGS
+ 0001:00000B64       WKFRUN
+ 0001:00000BB4       WKFWRITE
+ 0001:00000BF0       WKFSTOP
+ 0001:00000C28       WKFQUERYRUNNABLE
+ 0001:00000C60       WKFQUERYPATHINFO
+ 0001:00000CA4       WKFCREATEPATH
+ 0001:00000CDC       WKFQUERYCOPY
+ 0001:00000D1C       WKFCOPYFILE
+ 0001:00000D60       WKFDELETE
+ 0001:00000D9C       WKFDEFAULTNAME
+ 0001:00000DE0       Settings
+ 0001:00000E1C       DlgProc
+ 0001:00001A38       _DLL_InitTerm
+ 0001:00001A80       _test_handle
+ 0001:00001AD0       _CRT_init
+ 0001:00001E60       _setupenv
+ 0001:00001F40       __ctordtorTerm
+ 0001:00001F78       __ctordtorInit
+ 0001:0000205C       _CRT_term
+ 0001:0000224C       _split_chunk
+ 0001:00002344       __malloc
+ 0001:000025B0       malloc
+ 0001:0000265C       __free
+ 0001:000027DC       free
+ 0001:0000286C       _Weak_FreeListEntry
+ 0001:00002968       _heapmin_int
+ 0001:00002B58       _heapmin
+ 0001:00002C04       calloc
+ 0001:00002CE0       __realloc
+ 0001:00002E5C       realloc
+ 0001:00002F0C       _terminate
+ 0001:00002F2C       _EXE_Exception
+ 0001:00002F70       _recreate_exception
+ 0001:000030D4       _Lib_excpt
+ 0001:00003240       __Exception
+ 0001:0000364C       _exception_dllinit
+ 0001:0000367C       _exception_procinit
+ 0001:000036B0       _get_eib
+ 0001:0000370C       _mig_eib_store
+ 0001:0000371C       __Saved_return_address
+ 0001:0000372C       __Async_exception_flag
+ 0001:00003748       _critlib_except
+ 0001:00003890       _w_Terminate_and_dump
+ 0001:0000390C       _fpreset
+ 0001:0000391C       _fcloseall_weak
+ 0001:00003930       _freeLocale_weak
+ 0001:00003934       _init_ctype_weak
+ 0001:00003938       _freeCtype_weak
+ 0001:0000393C       _Exception
+ 0001:00003954       _Test_and_reset
+ 0001:00003960       _callback_opt_sys
+ 0001:0000396C       _Regen_exception
+ 0001:00003978       _get_seglim
+ 0001:000039B4       _FreeFCB
+ 0001:00003A90       _CrtGetLocalData
+ 0001:00003D04       _CrtInitThread
+ 0001:00003D48       _beginthread
+ 0001:00003DBC       _endthread
+ 0001:00003F5C       _CreateSem
+ 0001:00003FC8       _CloseSem
+ 0001:0000401C       _RequestSem
+ 0001:000040AC       _ReleaseSem
+ 0001:000040C8       __threadid
+ 0001:000040F4       __random_seed
+ 0001:00004104       __version
+ 0001:00004110       __strtok_pos
+ 0001:00004120       __tempname_ptr
+ 0001:00004130       __perror_msg_ptr
+ 0001:00004140       __internal_buf_ptr
+ 0001:00004150       __lcvt_buf_ptr
+ 0001:00004160       __cvt_buf_ptr
+ 0001:00004170       __broken_time_ptr
+ 0001:00004180       __flags
+ 0001:00004190       __strerror_msg_ptr
+ 0001:000041A0       __dttm_ptr
+ 0001:000041B0       __doserrno
+ 0001:000041C0       _errno
+ 0001:000041D0       __cppstore
+ 0001:000041EC       _edcGetMessage
+ 0001:00004210       _PrintErrMsg
+ 0001:00004264       _MesgServ
+ 0001:00004468       strdup
+ 0001:000044D4       stricmp
+ 0001:00004570       strspn
+ 0001:000045AC       _freeCtype
+ 0001:000045C8       _init_ctype
+ 0001:00004C00       __dofmto
+ 0001:000056B8       _wfloatfmt
+ 0001:000056E0       _wcputs
+ 0001:000056F4       _fprintfieee
+ 0001:00005734       _fprintf_ansi
+ 0001:00005764       _sprintfieee
+ 0001:000057A0       _sprintf_ansi
+ 0001:000057CC       wctomb
+ 0001:000058A0       _bufprint
+ 0001:00005990       _wuwriteMem
+ 0001:00005994       _wreadbSyncMem
+ 0001:00005998       _wfsetposMem
+ 0001:000059A0       _wSeekMem
+ 0001:000059A8       _wfgetposMem
+ 0001:000059BC       _wrewindMem
+ 0001:000059C0       _wtellMem
+ 0001:000059D4       _wRemoveMem
+ 0001:000059D8       _wOpenMemory
+ 0001:000059E0       fflush
+ 0001:00005B3C       _fillb
+ 0001:00005D84       _Flush
+ 0001:00005F3C       _flushb
+ 0001:00006254       getenv
+ 0001:000063E8       _ilog2
+ 0001:000063F0       _internal_err
+ 0001:00006444       _ltoa
+ 0001:000064E8       _w_raise
+ 0001:000064F0       _uwrite
+ 0001:00006534       _set_crt_msg_handle
+ 0001:00006568       _freeThreadStorage
+ 0001:0000660C       _bit_test_set
+ 0001:00006620       wcstombs
+ 0001:00006788       strcpy
+ 0001:000067C4       strlen
+ 0001:000067E8       strncpy
+ 0001:0000682C       strrchr
+ 0001:0000685C       memset
+ 0001:00006898       memcpy
+ 0001:000068C8       _Math_Exception_Def
+ 0001:000068DC       _matherr
+ 0001:000068F0       sig32
+ 0001:00006902       DOSGETMESSAGE
+ 0001:00006902       Dos32GetMessage
+ 0001:00006902       DosGetMessage
+ 0001:00006902       DOS32GETMESSAGE
+ 0002:00000000       _dllentry
+ 0002:00000010       stdin
+ 0002:00000014       stdout
+ 0002:00000018       stderr
+ 0002:0000001C       _PGLOBAL_PTR
+ 0002:00000020       _daylight
+ 0002:00000024       _timezone
+ 0002:00000028       _osmode
+ 0002:0000002C       __decimal_point
+ 0002:00000030       __char_set_type
+ 0002:000002D0       __ctdtused
+ 0002:00000370       _matherr_ptr
+ 0002:00000510       _ctable
+ 0002:00000614       _ctypeModule
+ 0002:00000650       _crt_msg_handle
+ 0002:00000660       __ctordtorEnd
+ 0002:00000660       __ctordtorStart
+ 0002:000009B0       _firsteib
+ 0002:00000C44       _lasteib
+ 0002:00000C48       _edata
+ 0002:00000C48       _have_freed
+ 0002:00000C4C       _pBucketArr
+ 0002:00000C8C       _edcinit_fin
+ 0002:00000C90       _memory_sem
+ 0002:00000C9C       @BSSEDCINIT.C
+ 0002:00000CAC       _tmemory_sem
+ 0002:00000CB8       @BSSPRTEMSG.C
+ 0002:00000CBC       @BSSN_EXCEPT.C
+ 0002:00000CC8       __c_local_ctype
+ 0002:00000CCC       _ctype
+ 0002:00000CD0       __ctordtorCurrent
+ 0002:00000CD4       _tzname
+ 0002:00000CDC       _environ
+ 0002:00000CE0       _osmajor
+ 0002:00000CE1       _osminor
+ 0002:00000CE4       _locale_initialized
+ 0002:00000CE8       _TerminateAndDumpSem
+ 0002:00000CF4       _end
+
+
+Line numbers for peterpam.OBJ(Z:\peterpam\peterpam.c) segment CODE32
+
+	 Source       Src File      Flags        Seg:Offset
+	Line Num       Index        (0X)             (0X)
+	---------     --------     ------       -------------
+	    807            0         00         0001:00010037
+	      0            0         00         0001:0001003c
+	      6            0         00         0001:0001003e
+	     12            0         00         0001:00010040
+	     22            0         00         0001:00010047
+	     32            0         00         0001:00010049
+	     43            0         00         0001:0001004c
+	     86            0         00         0001:0001004d
+	    108            0         00         0001:0001004f
+	    112            0         00         0001:00010051
+	    116            0         00         0001:00010052
+	    127            0         00         0001:00010059
+	    132            0         00         0001:0001005c
+	    143            0         00         0001:0001005d
+	    148            0         00         0001:00010061
+	    156            0         00         0001:00010070
+	    173            0         00         0001:00010071
+	    191            0         00         0001:00010072
+	    197            0         00         0001:00010075
+	    212            0         00         0001:00010077
+	    223            0         00         0001:00010079
+	    233            0         00         0001:0001007c
+	    262            0         00         0001:0001007e
+	    268            0         00         0001:00010080
+	    275            0         00         0001:00010086
+	    308            0         00         0001:00010087
+	    321            0         00         0001:00010089
+	    324            0         00         0001:0001008c
+	    338            0         00         0001:0001008d
+	    359            0         00         0001:0001008f
+	    382            0         00         0001:00010093
+	    398            0         00         0001:00010095
+	    404            0         00         0001:00010096
+	    416            0         00         0001:00010098
+	    435            0         00         0001:0001009a
+	    443            0         00         0001:000100a8
+	    452            0         00         0001:000100aa
+	    459            0         00         0001:000100af
+	    504            0         00         0001:000100b2
+	    517            0         00         0001:000100b8
+	    533            0         00         0001:000100bb
+	    563            0         00         0001:000100bd
+	    575            0         00         0001:000100be
+	    591            0         00         0001:000100c0
+	    602            0         00         0001:000100c3
+	    612            0         00         0001:000100c5
+	    638            0         00         0001:000100c7
+	    657            0         00         0001:000100c8
+	    664            0         00         0001:000100ce
+	    702            0         00         0001:000100d0
+	    715            0         00         0001:000100d2
+	    726            0         00         0001:000100d4
+	    762            0         00         0001:000100d6
+	    781            0         00         0001:000100d7
+	    788            0         00         0001:000100dd
+	    826            0         00         0001:000100df
+	    835            0         00         0001:000100e0
+	    846            0         00         0001:000100e5
+	    882            0         00         0001:000100ea
+	    891            0         00         0001:000100ee
+	    932            0         00         0001:000100ef
+	    951            0         00         0001:000100f1
+	    956            0         00         0001:000100f3
+	    968            0         00         0001:000100fa
+	    992            0         00         0001:000100fb
+	   1016            0         00         0001:000100fc
+	   1040            0         00         0001:000100fe
+	   1062            0         00         0001:000100ff
+	   1076            0         00         0001:00010100
+	   1092            0         00         0001:00010102
+	   1103            0         00         0001:0001010a
+	   1112            0         00         0001:0001010d
+	   1154            0         00         0001:00010114
+	   1172            0         00         0001:00010115
+	   1196            0         00         0001:00010116
+	   1220            0         00         0001:00010118
+	   1242            0         00         0001:00010119
+	   1256            0         00         0001:0001011a
+	   1272            0         00         0001:0001011c
+	   1283            0         00         0001:00010120
+	   1288            0         00         0001:00010121
+	   1296            0         00         0001:00010127
+	   1304            0         00         0001:00010131
+	   1316            0         00         0001:00010135
+	   1345            0         00         0001:00010136
+	   1351            0         00         0001:00010139
+	   1356            0         00         0001:0001013d
+	   1394            0         00         0001:0001013e
+	   1400            0         00         0001:00010140
+	   1408            0         00         0001:00010144
+	   1446            0         00         0001:00010145
+	   1452            0         00         0001:00010147
+	   1460            0         00         0001:0001014b
+	   1498            0         00         0001:0001014c
+	   1504            0         00         0001:0001014e
+	   1517            0         00         0001:00010152
+	   1555            0         00         0001:00010153
+	   1561            0         00         0001:00010155
+	   1568            0         00         0001:00010159
+	   1606            0         00         0001:0001015a
+	   1612            0         00         0001:0001015c
+	   1620            0         00         0001:00010160
+	   1658            0         00         0001:00010161
+	   1664            0         00         0001:00010163
+	   1672            0         00         0001:00010167
+	   1710            0         00         0001:00010168
+	   1716            0         00         0001:0001016a
+	   1724            0         00         0001:0001016e
+	   1762            0         00         0001:0001016f
+	   1768            0         00         0001:00010171
+	   1776            0         00         0001:00010175
+	   1814            0         00         0001:00010176
+	   1820            0         00         0001:00010178
+	   1828            0         00         0001:0001017c
+	   1866            0         00         0001:0001017d
+	   1872            0         00         0001:0001017f
+	   1880            0         00         0001:00010183
+	   1918            0         00         0001:00010184
+	   1924            0         00         0001:00010186
+	   1932            0         00         0001:0001018a
+	   1970            0         00         0001:0001018b
+	   1976            0         00         0001:0001018d
+	   1984            0         00         0001:00010191
+	   2022            0         00         0001:00010192
+	   2028            0         00         0001:00010194
+	   2032            0         00         0001:03e69500
+	    256            0         00         0001:00000000
+	      0          152         01         0001:08160001
+	      0          153         01         0001:081c0001
+	      0          157         01         0001:08200001
+	      0          158         01         0001:08280001
+	      0          163         01         0001:082c0001
+	      0          171         01         0001:08350001
+	      0          176         01         0001:08540001
+	      0          178         01         0001:086a0001
+	      0          179         01         0001:08820001
+	      0          180         01         0001:089a0001
+	      0          182         01         0001:08a40001
+	      0          183         01         0001:08b20001
+	      0          184         01         0001:08c20001
+	      0          186         01         0001:08cd0001
+	      0          187         01         0001:08d40001
+	      0          232         01         0001:08dc0001
+	      0          243         01         0001:08e20001
+	      0          245         01         0001:08e80001
+	      0          246         01         0001:08ee0001
+	      0          247         01         0001:08f40001
+	      0          253         01         0001:08fa0001
+	      0            5         02         0001:09300001
+	      0           34         02         0001:09340001
+	      0           42         02         0001:093a0001
+	      0           45         02         0001:09410001
+	      0           47         02         0001:09470001
+	      0           49         02         0001:09500001
+	      0           54         02         0001:095c0001
+	      0           55         02         0001:096f0001
+	      0           56         02         0001:09750001
+	      0           58         02         0001:09800001
+	      0           60         02         0001:09870001
+	      0           66         02         0001:09a50001
+	      0           72         02         0001:09cd0001
+	      0           73         02         0001:09e50001
+	      0           75         02         0001:0a000001
+	      0           77         02         0001:0a040001
+	      0           79         02         0001:0a100001
+	      0           80         02         0001:0a1d0001
+	      0           82         02         0001:0a240001
+	      0           88         02         0001:0a2c0001
+	      0           92         02         0001:0a500001
+	      0          115         02         0001:0a580001
+	      0          121         02         0001:0a5e0001
+	      0          123         02         0001:0a640001
+	      0          128         02         0001:0a710001
+	      0          132         02         0001:0a9b0001
+	      0          135         02         0001:0ae40001
+	      0          169         02         0001:0aec0001
+	      0          179         02         0001:0af20001
+	      0          181         02         0001:0af80001
+	      0          191         02         0001:0b170001
+	      0          194         02         0001:0b290001
+	      0          202         02         0001:0b580001
+	      0          203         02         0001:0b600001
+	      0            9         03         0001:0b640001
+	      0           24         03         0001:0b6a0001
+	      0           26         03         0001:0b700001
+	      0           38         03         0001:0bb00001
+	      0           59         03         0001:0bb40001
+	      0           67         03         0001:0bba0001
+	      0           69         03         0001:0bc00001
+	      0           74         03         0001:0bec0001
+	      0           94         03         0001:0bf00001
+	      0          100         03         0001:0bf60001
+	      0          102         03         0001:0bfc0001
+	      0          105         03         0001:0c240001
+	      0          121         03         0001:0c280001
+	      0          127         03         0001:0c2e0001
+	      0          129         03         0001:0c340001
+	      0          132         03         0001:0c5c0001
+	      0          161         03         0001:0c600001
+	      0          171         03         0001:0c660001
+	      0          173         03         0001:0c6c0001
+	      0          180         03         0001:0ca00001
+	      0          199         03         0001:0ca40001
+	      0          206         03         0001:0caa0001
+	      0          208         03         0001:0cb00001
+	      0          212         03         0001:0cd80001
+	      0          241         03         0001:0cdc0001
+	      0          250         03         0001:0ce20001
+	      0          252         03         0001:0ce80001
+	      0            2         04         0001:0d180001
+	      0           31         04         0001:0d1c0001
+	      0           42         04         0001:0d220001
+	      0           44         04         0001:0d280001
+	      0           52         04         0001:0d5c0001
+	      0           73         04         0001:0d600001
+	      0           81         04         0001:0d660001
+	      0           83         04         0001:0d6c0001
+	      0           88         04         0001:0d980001
+	      0          115         04         0001:0d9c0001
+	      0          125         04         0001:0da20001
+	      0          127         04         0001:0da80001
+
+	Record Number of Start of Source: 75890688
+	Number of Primary Source Records: 232521729
+	Source & Listing Files:
+	File 1)
+	File 2)
+	File 3)      Z:\peterpam\peterpam.cD:\TOOLKT21\C\OS2H\os2.hD:\TOOLKT21\C\OS2H\os2def.hD:\TOOLKT21\C\OS2H\bse.hD:\TOOLKT21\C\OS2H\bsedos.hD:\TOOLKT21\C\OS2H\bsetib.hD:\TOOLKT21\C\OS2H\bsememf.hD:\TOOLKT21\C\OS2H\bsexcpt
+	File 4)h •G D:\TOOLKT21\C\OS2H\bsesub.hD:\TOOLKT2
+	File 5)\C\OS2H\bseerr.hD:\TOOLKT21\C\OS2H\pm.hD:\TOOLK
+	File 6)21\C\OS2H\pmwin.hD:\TOOLKT21\C\OS2H\pmtypes.hD:\TOOLKT21\C\OS2H\pmmle.hD:\TOOLKT2
+	File 7)\C\OS2H\pmshl.hD:\TOOLKT21\C\OS2H\pmerr.hD:\TOO
+	File 8)KT21\C\OS2H\pmsei.hD:\TOOLKT21\C\OS2H\pmhelp.hD:\TOOLKT21\C\OS2H\pmgpi.hD
+	File 9)\TOOLKT21\C\OS2H\pmdev.hD:\TOOLKT21\C\OS2H\pmwp.hD:\TOOL
+	File 10)T21\C\OS2H\pmerr.hD:\TOOLKT21\C\OS2H\pmstddlg.hD:\IBMCPP\INCLUDE\STRING.H
+	File 11)D:\IBMCPP\INCLUDE\STDLIB.H
+	File 12)D:\IBMCPP\INCLUDE\STDDEF.H
+	File 13)D:\IBMCPP\INCLUDE\STDIO.H
+	File 14)Z:\peterpam\wkfpam.h
+	File 15)Z:\peterpam\peterpam.h
+	File 16)Z:\peterpam\ppcnr.h
+	File 17)

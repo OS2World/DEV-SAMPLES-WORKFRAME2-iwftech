@@ -1,0 +1,11 @@
+.\WKFINFO.res: \
+    p:\samples\wkfinfo\WKFINFO.RC \
+    {$(INCLUDE)}wkfinfo.h \
+    wkfinfo.MAK
+
+.\wkfinfo.obj: \
+    p:\samples\wkfinfo\wkfinfo.c \
+    {p:\samples\wkfinfo;$(INCLUDE);}wkfinfo.h \
+    {p:\samples\wkfinfo;$(INCLUDE);}wkf.h \
+    wkfinfo.MAK
+

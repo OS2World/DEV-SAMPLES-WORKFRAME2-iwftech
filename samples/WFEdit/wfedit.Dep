@@ -1,0 +1,11 @@
+.\wfedit.res: \
+    wfedit.RC \
+    {$(INCLUDE)}wfedit.h \
+    wfedit.mak
+
+.\wfedit.obj: \
+    wfedit.C \
+    {.;$(INCLUDE);}wkfedit.h \
+    {.;$(INCLUDE);}wfedit.h \
+    wfedit.mak
+

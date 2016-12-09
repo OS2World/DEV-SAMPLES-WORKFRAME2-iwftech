@@ -1,0 +1,19 @@
+.\PPCNR.res: \
+    PPCNR.RC \
+    {.;$(INCLUDE)}ppcnr.h \
+    peterpam.MAK
+
+.\PETERPAM.obj: \
+    PETERPAM.C \
+    {.;$(INCLUDE);}peterpam.h \
+    {.;$(INCLUDE);}ppcnr.h \
+    {.;$(INCLUDE);}wkf.h \
+    peterpam.MAK
+
+.\PPCNR.obj: \
+    PPCNR.C \
+    {.;$(INCLUDE);}peterpam.h \
+    {.;$(INCLUDE);}ppcnr.h \
+    {.;$(INCLUDE);}wkf.h \
+    peterpam.MAK
+

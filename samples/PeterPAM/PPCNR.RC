@@ -1,0 +1,37 @@
+#include <os2.h>
+
+#include "ppcnr.h"
+
+
+DLGTEMPLATE IDD_PETERPAM LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "PeterPAM - Icon Association", IDD_PETERPAM, 12, 6, 268, 160, WS_VISIBLE,
+            FCF_SYSMENU | FCF_TITLEBAR
+    BEGIN
+        LTEXT           "Chained PAM", IDD_CHAINED_TEXT, 
+                           10, 135, 60, 8
+        ENTRYFIELD      "", IDD_CHAINED, 
+                           75, 135, 75, 8, ES_MARGIN
+        CONTROL         "", IDD_CONTAINER, 
+                           10, 57, 241, 71, 
+                              WC_CONTAINER, CCS_SINGLESEL | 
+                              CCS_AUTOPOSITION | CCS_VERIFYPOINTERS | 
+                              CCS_READONLY | CCS_MINIRECORDCORE | 
+                              WS_GROUP | WS_TABSTOP | WS_VISIBLE
+        LTEXT           "Extension", IDD_EXT_TEXT, 
+                           10, 40, 74, 8
+        ENTRYFIELD      "", IDD_EXT, 
+                           12, 27, 86, 8, 
+                              ES_MARGIN
+        LTEXT           "Icon Filename", IDD_FILENAME_TEXT, 
+                           125, 40, 132, 8
+        ENTRYFIELD      "", IDD_FILENAME, 
+                           126, 27, 124, 8, 
+                              ES_MARGIN
+        DEFPUSHBUTTON   "Add", IDD_ADD, 
+                           12, 4, 40, 14,
+        PUSHBUTTON      "Delete", IDD_DELETE, 
+                           126, 4, 40, 14
+    END
+END
+

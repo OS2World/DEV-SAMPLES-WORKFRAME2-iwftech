@@ -1,0 +1,51 @@
+/****************************************************************************/ 
+/*                                                                          */ 
+/* PROGRAM NAME: WKFInfo                                                    */ 
+/*                                                                          */ 
+/* COPYRIGHT:                                                               */ 
+/* ----------                                                               */ 
+/* Copyright (C) International Business Machines Corp., 1991,1992,1993,1994 */ 
+/*                                                                          */ 
+/* DISCLAIMER OF WARRANTIES:                                                */ 
+/* -------------------------                                                */ 
+/* The following [enclosed] code is sample code created by IBM              */ 
+/* Corporation.  This sample code is not part of any standard IBM product   */ 
+/* and is provided to you solely for the purpose of assisting you in the    */ 
+/* development of your applications.  The code is provided "AS IS",         */ 
+/* without warranty of any kind.  IBM shall not be liable for any damages   */ 
+/* arising out of your use of the sample code, even if they have been       */ 
+/* advised of the possibility of such damages.                              */ 
+/*                                                                          */ 
+/* REVISION LEVEL: 2.1                                                      */ 
+/* -------------------                                                      */ 
+/*                                                                          */ 
+/* This program illustrates using the project and actions profile APIs to   */ 
+/* obtain information about a project and its actions.                      */ 
+/*                                                                          */ 
+/****************************************************************************/ 
+
+#include <os2.h>
+#include "wkfinfo.h"
+
+DLGTEMPLATE IDD_DLG LOADONCALL MOVEABLE DISCARDABLE
+{
+    DIALOG  "WorkFrame/2 Information", IDD_DLG, 0, 0, 235, 155, WS_VISIBLE,
+            FCF_SYSMENU | FCF_TITLEBAR | FCF_SIZEBORDER | FCF_MAXBUTTON
+    {
+        MLE             "", IDD_MLE, 0, 0, 235, 141, MLS_READONLY |
+                        MLS_HSCROLL | MLS_VSCROLL | WS_GROUP
+    }
+}
+
+
+MENU IDM_DLG_ACTIONBAR
+{
+    SUBMENU      "~File",               IDM_FILE, MIS_TEXT
+    {
+        MENUITEM "~Open project...",    IDM_FILE_OPEN, MIS_TEXT
+        MENUITEM SEPARATOR
+        MENUITEM "~Save text...",       IDM_FILE_SAVE, MIS_TEXT
+    }
+}
+
+
